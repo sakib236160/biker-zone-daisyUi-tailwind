@@ -24,6 +24,7 @@
               colors: {
                 clifford: '#da373d',
                 'bike-primary': '#E76F51',
+                'rating-primary': '#23A6F0',
                 'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
               }
             }
@@ -148,9 +149,9 @@
             <p class="text-center text-bike-primary">Best bike collection </p>
              <div class="w-10 text-center mx-auto"><hr></div>
              <div class="grid lg:grid-cols-3 mt-10 lg:pl-28">
+                <img class="filter grayscale"src="./images/others/feature-bike.png" alt="">
                 <img  src="./images/others/feature-bike.png" alt="">
-                <img  src="./images/others/feature-bike.png" alt="">
-                <img  src="./images/others/feature-bike.png" alt="">
+                <img class="filter grayscale" src="./images/others/feature-bike.png" alt="">
              </div>
          </section>
          <!-- lates Bike Section -->
@@ -206,7 +207,77 @@
             </div>
           </section>
           <!-- Happy clients Says -->
-           <section></section>
+           <section class="my-24">
+            <h3 class="mb-16 text-5xl font-bold text-center">Happy<span class="text-bike-primary">Clients says</span></h3>
+            <div class=" gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <!-- ratting card 1 -->
+              <div class="card bg-base-100 border border-1 ">
+                <figure class="pt-9">
+                  <div class="avatar">
+                    <div class="w-24 rounded-full">
+                      <img src="./images/others/user-1.png" />
+                    </div>
+                  </div>
+                </figure>
+                <div class="card-body space-y-5 items-center">
+                  <p class="text-center text-gray-600">ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="rating">
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                  </div>
+                  <a class="text-rating-primary" href="#">Regina Miles</a>
+                  <h2 class="card-title">Banker</h2>
+                </div>
+              </div>
+              <!-- ratting card 2 -->
+              <div class="card bg-base-100 border border-1">
+                <figure class="pt-9">
+                  <div class="avatar">
+                    <div class="w-24 rounded-full">
+                      <img src="./images/others/user-2.png" />
+                    </div>
+                  </div>
+                </figure>
+                <div class="card-body space-y-5 items-center">
+                  <p class="text-center text-gray-600">ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="rating">
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                  </div>
+                  <a class="text-rating-primary" href="#">Regina Miles</a>
+                  <h2 class="card-title">Banker</h2>
+                </div>
+              </div>
+              <!-- ratting card 3 -->
+              <div class="card bg-base-100 border border-1">
+                <figure class="pt-9">
+                  <div class="avatar">
+                    <div class="w-24 rounded-full">
+                      <img src="./images/others/user-3.png" />
+                    </div>
+                  </div>
+                </figure>
+                <div class="card-body space-y-5 items-center">
+                  <p class="text-center text-gray-600">ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="rating">
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500" />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500"  />
+                    <input type="radio" name="rating" class="mask mask-star-2 bg-orange-500"  />
+                  </div>
+                  <a class="text-rating-primary" href="#">Regina Miles</a>
+                  <h2 class="card-title">Banker</h2>
+                </div>
+              </div>
+            </div>
+          </section>
            <!-- FAQ Section -->
             <section class="my-24">
                 <h3 class="mb-16 text-5xl font-bold text-center">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
